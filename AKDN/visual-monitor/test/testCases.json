@@ -1,0 +1,29 @@
+[
+	{
+		"name": "home",
+		"tests": [
+			{
+				"baseUrl": "http://akdn.org",
+				"name": "main",
+				"desc": "should show the home page",
+				"excluded": [".breaking-news-custom-wrap", ".social-block", ".akdn-facts-block-row"],
+				"hidden": [".flex-nav-container", ".grid-social-block_picture"],
+				"removed": ["#sliding-popup.sliding-popup-bottom"]
+			}
+		]
+	},
+	{
+		"name": "about-hhak",
+		"tests": [
+			{
+				"baseUrl": "http://akdn.org/about-us/his-highness-aga-khan",
+				"name": "his-highness-aga-khan",
+				"desc": "should show the his-highness-aga-khan page",
+				"excluded": [],
+				"hidden": [],
+				"removed": ["#sliding-popup.sliding-popup-bottom"]
+			}
+			
+		]
+	}
+]
